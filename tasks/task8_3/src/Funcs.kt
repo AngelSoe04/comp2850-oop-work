@@ -3,8 +3,14 @@
 typealias Record = Pair<String,Double>
 
 fun fetchData(): List<Record> {
-  // Create and return a simulated dataset here
-  // Use the listOf() and to() functions to create the dataset
+  return listOf(
+    "Leeds" to 12.3,
+    "London" to 10.5,
+    "Bristol" to 14.1,
+    "London" to 15.8,
+    "Glasgow" to 8.9,
+    "Cardiff" to 13.4
+  )  
 }
 
 // Challenge: compute average temperature with one line of code
